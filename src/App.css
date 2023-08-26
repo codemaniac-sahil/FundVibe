@@ -1,0 +1,75 @@
+.connecting-wallet {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.connecting-wallet button,
+.create-or-donate button,
+.donate-or-withdraw button,
+.create-campaign-form-button button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  background-color: rgb(248, 167, 17);
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.create-or-donate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonclass {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate-or-withdraw {
+  display: flex;
+  gap: 1.5em;
+}
+
+.campaign-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.create-campaign-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.create-campaign-form-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.create-campaign-form-input-field input,
+textarea {
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.campaign-info {
+  margin-left: 10px;
+}
+
+.campaign-info-1 {
+  font-size: 1.2em;
+}
